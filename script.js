@@ -1,3 +1,3 @@
 $(".title-down").click(function(){
-    $("body").animate({scrollTop: $(window).height()}, 300);
+    $("body").animate({scrollTop: $(window).height()}, 500);
 });

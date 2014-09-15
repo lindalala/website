@@ -41,6 +41,11 @@
 	left: 50%;
 }
 
+.title-down:hover .fa {
+	cursor: pointer;
+	color: #FFD683;
+}
+
 .section {
     height: 50%;
     width: 100%;
@@ -107,7 +112,7 @@
 
 .proj-desc {
 	font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+    font-size: 38px;
     color: #f0f0f0;
     font-weight: 900px;
 	opacity: 0;
