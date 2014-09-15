@@ -1,2 +1,4 @@
-mygithubpage
+My website
 ============
+
+lindali.me
