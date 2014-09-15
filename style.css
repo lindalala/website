@@ -1,0 +1,141 @@
+.title {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    position: fixed;
+}
+
+.title-info {
+    left: 10%;
+    top: 15%;
+    position: absolute;
+}
+
+.title-text {
+	font-family: 'Raleway', sans-serif;
+    font-size: 65px;
+    color: #f0f0f0;
+    position: relative;
+    margin: 0 0 20px 0;
+}
+
+.title-buttons {
+    left: 10%;
+    position: relative;
+}
+
+.social-icon {
+	margin: 5px;
+	text-decoration: none;
+}
+
+.title-down {
+	bottom: 5%;
+	position: absolute;
+	left: 50%;
+}
+
+.section {
+    height: 50%;
+    width: 100%;
+    left: 0;
+    background-color: #f0f0f0;
+    position: absolute;
+    min-width: 900px;
+}
+
+.section1 {
+	background-color: #FFD683;
+	top: 100%;
+}
+
+.section1-image {
+	background-image: url("images/me.jpg");
+	background-size: cover;
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+	margin: 30px;
+	float: right;
+}
+
+.section1-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #fffff;
+    margin: 30px 30px 30px 50px;
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+}
+
+.section2 {
+	top: 150%;
+	background-color: #82DA82;
+	margin-bottom: 50px;
+}
+
+.section2-text {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	margin: 30px 30px 30px 50px;
+}
+
+.proj-buttons {
+	text-align: center;
+	margin: 50px 0px 0px 50px;
+}
+
+.proj-icon {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: white;
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	margin: 0 30px 30px 0;
+	position: relative;
+	text-decoration: none;
+}
+
+.proj-desc {
+	font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #f0f0f0;
+    font-weight: 900px;
+	opacity: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(4, 28, 41, 0.7);
+	transition: 0.5s opacity;
+}
+
+.proj-icon:hover .proj-desc {
+	opacity: 1;
+}
+
+.p1 {
+	background-image: url("images/totem.jpg");
+}
+
+.p2 {
+	background-image: url("images/dine.png");
+}
+
+.p3 {
+	background-image: url("images/chain.jpg");
+}
+
+.p4 {
+	background-image: url("images/game.jpg");
+}
+
+
