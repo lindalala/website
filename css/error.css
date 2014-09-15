@@ -1,0 +1,26 @@
+.title {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-image: url("../images/trees.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    position: fixed;
+}
+
+.title-info {
+    left: 10%;
+    top: 15%;
+    position: absolute;
+}
+
+.title-text {
+	font-family: 'Raleway', sans-serif;
+    font-size: 65px;
+    color: #f0f0f0;
+    position: relative;
+    margin: 0 0 20px 0;
+}
